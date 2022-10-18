@@ -1,0 +1,96 @@
+
+
+
+<style>
+    * {
+        margin: 0 auto;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    /* Definições para o corpo */
+    body {
+        font-family: Helvetica;
+        font-size: 20px;
+        color: #FFFFFF;    
+        text-align: justify;
+        /*background-image: url(https://i.ytimg.com/vi/hZ9tLqLlUpI/maxresdefault.jpg);
+        opacity: 95%;*/
+        background-image: url(https://www.itl.cat/pics/b/33/335743_lofi-hip-hop-wallpaper.jpg); /* site para a imagem */
+        background-size: cover;                                                                /* dimensionar a imagem de fundo a tela cheia */
+    }
+    
+    /* Definições para o cabeçalho */    
+    /*
+    header {
+        background-color: rgb(255, 255, 255);
+        padding: 15px;
+        border-radius: 10px;
+        color: #e21111;
+        text-align: center;
+        font-size: 25px;
+        border: 6px solid #ffffff;
+        /*border-radius: 0px 0px 0px 0px;*/
+    }
+    */
+
+    nav {
+        -webkit-flex: 1;
+        -ms-flex: 1;
+        flex: 1;
+        background: rgba(0, 0, 0, 0);
+        padding: 0px;
+    }
+
+    /* Definindo que a navegação chamada "Menu" terá as seguintes propriedades. */
+    #menu{
+        background-color: rgb(0, 0, 0, 0);
+        color: #ffffff;
+    }
+
+    #menu ul {
+        padding: 0;
+        background-color:#ffffff00;
+        list-style:none;  /* remover o * do item da lista */
+    }
+    #menu ul li { 
+        display: inline; /* colocar a disposição dos itens lado a lado */
+    
+    }  
+
+    #menu ul li a {
+        padding: 20px;
+        display: inline-block;
+        color: #ffffff;
+        text-decoration: none;   /* visual do link */
+        transition: background .4s;
+    }
+
+    #menu ul li a:hover {
+        background-color: rgb(73, 87, 214);
+    }
+    
+
+
+    /* Definições para o artigo */
+    article {
+        -webkit-flex: 3;
+        -ms-flex: 3;
+        flex: 3;
+        text-align: justify;
+        background-color: #ffffff00;
+        color: rgb(255, 255, 255);
+    }
+
+    /* Definições para o cabeçalho inferior */
+     footer {
+        background-color: rgba(255, 255, 255, 0.500);
+        padding: 5px;
+        text-align: center;
+        font-size: 15px;
+        color: rgb(255, 255, 255);
+        opacity: 70%;
+        border: 6px solid #1C6EA4;
+        border-radius: 40px 40px 40px 40px;
+    }
+
+</style>
